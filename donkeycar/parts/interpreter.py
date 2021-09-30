@@ -6,7 +6,8 @@ from typing import Union, Sequence, List
 
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.python.compiler.tensorrt import trt_convert as trt
+# from tensorflow.python.compiler.tensorrt import trt_convert as trt
+# from tensorflow.python.compiler.tensorrt import trt
 from tensorflow.python.framework.convert_to_constants import \
     convert_variables_to_constants_v2 as convert_var_to_const
 from tensorflow.python.saved_model import tag_constants, signature_constants
